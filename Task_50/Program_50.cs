@@ -41,5 +41,5 @@ if (m > row || n > columns)
 else
 {
     var element = array.GetValue(m - 1, n - 1);
-    Console.WriteLine(element);
+    Console.WriteLine($"Элемент с указанными координатами : {element}");
 }
